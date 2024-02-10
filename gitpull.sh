@@ -8,8 +8,6 @@ ls -l
 
 git init
 git remote add origin https://github.com/sainihardev713/arc.git
-git add .
-git commit -m "Update files by dell $(date)"
-git push origin main
+git pull origin main
 
 read -p "Press Enter to exit..."
